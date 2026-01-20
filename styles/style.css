@@ -286,6 +286,19 @@ color: white;
     grid-column: span 1;
     grid-row: span 1;
 }
+
+.layout h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight:700;
+    margin-top: 16px;
+}
+
+.layout p{
+    color: white;
+    opacity: 0.6;
+}
+
 .layout-container .layout{
     border: 40px;
     padding: 40px;
@@ -444,30 +457,14 @@ color: white;
     opacity: 0.8;
 }
 
-.hide{
-    display: none;
-}
+
 
 /* responsive styles/media queary */
-@media screen and (max-width:676px) {
 
-   .nav-item
-   .nav-btn{
-    display: none;
-   }
+@media screen and (max-width:676px) {
+    .about {
+    width:100%;
+    padding: none;
 }
 
-@media screen and (min-width:676px) {
-  .ham{
-    display: none;
-  }
-  
-  }
-
-
-  @media screen and (min-width:676px) and (max-width:992px) {
-    .brand-logo img{
-        width: 100%;
-        margin-top: 24px;;
-    }
-  }
+}
